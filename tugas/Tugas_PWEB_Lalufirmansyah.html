@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .input{
+            padding-right: 100%;
+        }
+    </style>
+  </head>
+  <body>
+    <div style="border: 1px solid black; padding: 10px 20px; margin: 0 75px;">
+        <a href="#" style="padding-right: 15%;">home  |</a>
+        <a href="#" style="padding-right: 15%;">Generate link  |</a>
+        <a href="#"  style="padding-right: 15%;">Transaction history   |</a>
+        <a href="#"  style="padding-right: 15%;">Policy    |</a>
+        <a href="#"  style="padding-right: 0%;">Logout</a>   
+     </div>
+     <br>
+     <div style="display: flex;">
+         <div>
+            <img src="download (10).jpeg" width="150px" height="150px" style="border: 2px solid black; margin-left: 75px;" alt=""><br>
+            <button style="margin-left: 75px;">Upload picture</button>
+         </div>
+         <div style="text-align: center;">
+           <table style="margin: 0% 10%;">
+            <tr>
+                <td>
+                    <label for="deskripsi">Title Here</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input style="padding-right: 100%;" type="text" name="desk" id="desk" value="MacBook Air" class="input">
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <label for="admisi">Description</label>
+                </td>
+                <td style="vertical-align: top;">:</td>
+                <td>
+                    <textarea style="padding-right: 100%;" name="admisi" id="admisi" cols="20" rows="5" class="input">Year :
+                        Model :
+                        Condition :
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="account">Account Number</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="account" id="account" value="123-456-789-0" class="input">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="bank">Bank</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" list="bank" name="bank">
+                    <datalist id="bank">
+                        <option value="BHC">BHC</option>
+                        <option value="BSI">BSI</option>
+                        <option value="BCA">BCA</option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="holder">Account Holder</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="holder" id="holder" value="Name Here" class="input">
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <label for="transaksi">Transaction</label>
+                </td>
+                <td style="vertical-align: top;">:</td>
+                <td>
+                    <input type="number" name="number" id="number" min="1" max="20"><br>
+                    <small>*If the transaction is for 3 person, Choose 3 from the drop-down list</small><br>
+                    <input type="checkbox" name="mobile" id="mobile">
+                    <label for="mobile">Send to Mobile Phone</label><br>
+                    <input type="checkbox" name="email" id="email">
+                    <label for="email">Send to Mobile Phone</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="send">Send to Mobile Phone</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="send" id="send" class="input">
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <label for="send">Send to Email</label>
+                </td>
+                <td style="vertical-align: top;">:</td>
+                <td>
+                    <input type="text" name="send" id="send" class="input"><br>
+                    <input type="submit" name="sub" id="sub" value="Generate Nabr Link" style="margin-right: 200%;">
+                </td>
+            </tr>
+           </table>
+         </div>
+     </div>
+  </body>
+</html>
