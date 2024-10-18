@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .input{
+            padding-right: 100%;
+        }
+    </style>
+  </head>
+  <body>
+    <div style="border: 1px solid black; padding: 10px 20px; margin: 0 250px;">
+        <a href="#" style="padding-right: 17%;">home  |</a>
+        <a href="#" style="padding-right: 17%;">Register  |</a>
+        <a href="#"  style="padding-right: 17%;">Policy   |</a>
+        <a href="#"  style="padding-right: 17%;">About    |</a>
+     </div>
+     <br>
+     <div style="display: flex;">
+         <div>
+            <img src="download (10).jpeg" width="150px" height="150px" style="border: 2px solid black; margin-left: 75px;" alt=""><br>
+         </div>
+         <div style="text-align: center;">
+           <table style="margin: 0% 10%;">
+            <tr>
+                <td>
+                    <label for="deskripsi">Title Here</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <p>MacBook Air $800</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="admisi">Description</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <p>Year : 2004</p>
+                    <p>Model : </p>
+                    <p>Condition : Mint</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Total Amount
+                </td>
+                <td>:</td>
+                <td>$800</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="bank">Payment Type</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" list="bank" name="bank">
+                    <datalist id="bank">
+                        <option value="Payment Type">Visa Debit</option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="holder">Account Holder</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="holder" id="holder" value="Name Here" class="input">
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <label for="no">Account No</label>
+                </td>
+                <td style="vertical-align: top;">:</td>
+                <td>
+                    <input type="text" name="no" id="no" value="123-456-789-0"><br>
+                    <input type="checkbox" name="mobile" id="mobile">
+                    <label for="mobile">Send to Mobile Phone</label><br>
+                    <input type="checkbox" name="email" id="email">
+                    <label for="email">Send to Mobile Phone</label>
+                </td>
+            </tr>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="send">Send to Mobile Phone</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="send" id="send" class="input" value="1234567890,12345678901">
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <label for="send">Send to Email</label>
+                </td>
+                <td style="vertical-align: top;">:</td>
+                <td>
+                    <input type="text" name="send" id="send" class="input" value="pemogramanweb@gmail.com"><br>
+                    <input type="submit" name="sub" id="sub" value="Pay Using QuidLink" style="margin-right: 200%;">
+                </td>
+            </tr>
+           </table>
+         </div>
+     </div>
+  </body>
+</html>
